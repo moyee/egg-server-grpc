@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package hello;
+
+message Status {
+  int32 code = 1;
+}
+
+service HelloService {
+  rpc Echo(Status) returns (Status) {}
+}
