@@ -2,7 +2,7 @@
 
 /**
  * egg-server-grpc default config
- * @member Config#eggServerGrpc
+ * @member Config#grpcServer
  * @property {String} SOME_KEY - some description
  */
 exports.grpcServer = {
