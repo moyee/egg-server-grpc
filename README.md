@@ -50,6 +50,8 @@ exports.eggServerGrpc = {
 - eggjs中 由于会启动多个worker，并会关闭worker以保持稳定，故 grpc服务端口放在 agent监听
 通过 egg的sendtorandom和sendtoagent来通信
 
+## Install
+    npm i egg-server-grpc
 ## Example
     # app/proto/hello.proro
     syntax = "proto3";
