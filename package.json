@@ -1,6 +1,6 @@
 {
   "name": "egg-server-grpc",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "",
   "eggPlugin": {
     "name": "eggServerGrpc"
@@ -42,7 +42,8 @@
     "app.js",
     "agent.js",
     "config",
-    "app"
+    "lib",
+    "examples"
   ],
   "ci": {
     "version": "8, 10"
